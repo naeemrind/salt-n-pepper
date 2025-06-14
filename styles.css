@@ -5,12 +5,18 @@
 }
 
 
+body {
+    font-family: sans-serif;
+}
 
 .header {
     background-color: #25212b;
     height: 100px;
     padding-left: 8rem;
     padding-right: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .logo {
@@ -22,3 +28,34 @@
     height: 100%;
 }
 
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-links a {
+    color: white;
+    display: block;
+    padding: 0.65rem 2rem;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.nav-links .top-link {
+    border: 1px solid orange;
+    border-radius: 32px;
+}
+
+.nav-links .top-link-1 {
+    margin-right: 0.4rem;
+}
