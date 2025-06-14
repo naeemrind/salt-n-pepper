@@ -52,10 +52,25 @@ body {
 }
 
 .nav-links .top-link {
-    border: 1px solid orange;
+    border: 1px solid #c7baba;
     border-radius: 32px;
+    display: flex;
+    align-items: center;
 }
 
 .nav-links .top-link-1 {
     margin-right: 0.4rem;
 }
+
+.nav-links .top-link-1 a {
+    padding: 0.9rem 2rem;
+}
+
+.nav-links .top-link-2 {
+    background-color: #ed1c24;
+    border: transparent;
+}
+.nav-links .top-link-2 a {
+    padding: 0.9rem 2rem;
+}
+
